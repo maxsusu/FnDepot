@@ -1,7 +1,7 @@
 {
   "numa": {
     "display_name": "numa",
-    "platform": "x86 | x86",
+    "platform": ["x86", "arm"],
     "desc": "Numa 是 Rust 编写的跨平台便携式本地 DNS 解析工具，以单二进制文件形式运行，无需树莓派、云服务或注册账号，兼顾网络隐私防护、广告拦截与开发者本地调试需求，数据全程本地留存.讨论Q群：767315692，官方链接：https://numa.rs/",
     "labels": "工具,DNS服务器,DNS",
     "version": "0.21.0",
