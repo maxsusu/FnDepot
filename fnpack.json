@@ -8,7 +8,7 @@
     "author": "numa",
     "author_url": "https://numa.rs/",
     "bug_report_url": "https://github.com/maxsusu/FnDepot/issues",
-    "download_url": "https://raw.githubusercontent.com/maxsusu/FnDepot/refs/heads/main/numa/numa_x86.fpk",
+    "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_x86.fpk",
     "install_type": "系统空间",
     "size": "4.89MB",
     "history": {
