@@ -30,7 +30,7 @@
     "changelog": "升级到2.0.4版",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/hbestm/FnDepot/releases/download/DSM/dsm-7.3.2-86009-x86.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNT2/vnt2.fpk"
       }
     }
   },
@@ -46,7 +46,7 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "2.81",
-    "download_url": "",
+    "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNTS2/vnts2.fpk",
     "changelog": "更新至 2.0.2"
   }
 }
