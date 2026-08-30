@@ -34,8 +34,8 @@
       }
     }
   },
-  "VNTS": {
-    "display_name": "VNTS",
+  "VNTS2": {
+    "display_name": "VNTS2",
     "platform": "x86",
     "version": "2.0.2",
     "desc": "VNTS2虚拟网络服务器（VNT组网服务端）管理应用。安装后在共享目录VNTS2中运行vnts2并生成config.tomI等配置文件，内置配置编辑器，保存后自动重启服务，支持运行状态监控与日志查看。",
