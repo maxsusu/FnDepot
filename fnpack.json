@@ -1,30 +1,20 @@
 {
   "numa": {
     "display_name": "numa",
-    "desc": "Numa 是 Rust 编写的跨平台便携式本地 DNS 解析工具，以单二进制文件形式运行，无需树莓派、云服务或注册账号，兼顾网络隐私防护、广告拦截与开发者本地调试需求，数据全程本地留存.讨论Q群：767315692，官方链接：https://numa.rs/",
-    "labels": "工具,DNS服务器,DNS",
-    "platform": [
-      "x86",
-      "arm64"
-    ],
-    "isdocker": "false",
+    "platform": "x86",
     "version": "0.23.0",
-    "distributor": "老A",
+    "desc": "Numa 是 Rust 编写的跨平台便携式本地 DNS 解析工具，以单二进制文件形式运行，无需树莓派、云服务或注册账号，兼顾网络隐私防护、广告拦截与开发者本地调试需求，数据全程本地留存。讨论 Q 群：767315692，官方链接：https://numa.rs/",
+    "labels": "工具,DNS服务器,DNS",
+    "distributor": "老 A",
     "distributor_url": "https://github.com/maxsusu/FnDepot/tree/main/numa",
     "bug_report_url": "https://github.com/maxsusu/FnDepot/issues",
+    "isdocker": "false",
     "install_type": "存储空间",
     "size": "4.89",
-    "history": {},
-    "changelog": "- 更新至v0.23.0，重写为飞牛原生应用，修复广告拦截静默失效；加固递归解析抵御DNS缓存投毒；修复EDNS/DNSSEC行为；新增CLI命令与仪表盘国际化",
-    "arch_diff": {
-      "x86": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316-x86.fpk"
-      },
-      "arm64": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316-arm64.fpk"
-      }
-    }
-  },
+    "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316-x86.fpk",
+    "changelog": "- 更新至 v0.23.0，修复广告拦截静默失效；加固递归解析抵御 DNS 缓存投毒；修复 EDNS/DNSSEC 行为；新增 CLI 命令与仪表盘国际化"
+  }
+}
   "VNT2": {
     "display_name": "VNT2",
     "platform": "x86",
