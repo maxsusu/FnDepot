@@ -11,7 +11,10 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "4.89",
-    "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316-x86.fpk",
+    "download_url": {
+      "x86":"https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316-x86.fpk",
+      "arm64":"https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316_arm64.fpk"
+}
     "changelog": "- 更新至v0.23.0，修复广告拦截静默失效；加固递归解析抵御DNS缓存投毒；修复EDNS/DNSSEC行为；新增CLI命令与仪表盘国际化"
   },
   "VNT2": {
