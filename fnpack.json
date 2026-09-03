@@ -5,13 +5,12 @@
     "labels": "工具,DNS服务器,DNS",
     "platform": [
       "x86",
-      "arm"
+      "arm64"
     ],
     "isdocker": "false",
     "version": "0.23.0",
     "distributor": "老A",
     "distributor_url": "https://github.com/maxsusu/FnDepot/tree/main/numa",
-    "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316-x86.fpk",
     "bug_report_url": "https://github.com/maxsusu/FnDepot/issues",
     "install_type": "存储空间",
     "size": "4.89",
@@ -21,7 +20,7 @@
       "x86": {
         "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316-x86.fpk"
       },
-      "arm": {
+      "arm64": {
         "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.02026090316-arm64.fpk"
       }
     }
@@ -42,7 +41,7 @@
     "changelog": "升级到2.0.6版，1、支持使用域名直连节点 2、修复服务端域名多解析时只用第一个连接的问题",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNT2/VNT2.fpk"
+        "download_url": "https://raw.githubusercontent.com/maxsusu/FnDepot/main/VNT2/VNT2.fpk"
       }
     }
   },
@@ -50,7 +49,7 @@
     "display_name": "VNTS2",
     "platform": "x86",
     "version": "2.0.3",
-    "desc": "VNTS2虚拟网络服务器（VNT组网服务端）管理应用。安装后在共享目录VNTS2中运行vnts2并生成config.tomI等配置文件，内置配置编辑器，保存后自动重启服务，支持运行状态监控与日志查看。",
+    "desc": "VNTS2虚拟网络服务器（VNT组网服务端）管理应用。安装后在共享目录VNTS2中运行vnts2并生成config.toml等配置文件，内置配置编辑器，保存后自动重启服务，支持运行状态监控与日志查看。",
     "labels": "工具,组网,效率",
     "distributor": "老A",
     "distributor_url": "https://github.com/maxsusu/FnDepot/tree/main/numa",
@@ -58,7 +57,7 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "2.81",
-    "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNTS2/VNTS2.fpk",
-    "changelog": "更新至 2.0.3版本，1、支持限定客户端id的连接 2、支持服务端修改IP",
+    "download_url": "https://raw.githubusercontent.com/maxsusu/FnDepot/main/VNTS2/VNTS2.fpk",
+    "changelog": "更新至 2.0.3版本，1、支持限定客户端id的连接 2、支持服务端修改IP"
   }
 }
