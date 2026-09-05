@@ -47,7 +47,7 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "2.81",
-    "download_url": "https://raw.githubusercontent.com/maxsusu/FnDepot/main/VNTS2/VNTS2.fpk",
+    "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNTS2/VNTS2_2.0.4_x86.fpk",
     "changelog": "更新至 2.0.3版本，1、支持限定客户端id的连接 2、支持服务端修改IP"
   }
 }
