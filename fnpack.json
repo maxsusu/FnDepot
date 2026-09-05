@@ -17,7 +17,10 @@
 }
   "VNT2": {
     "display_name": "VNT2",
-    "platform": "x86",
+    "platform": [
+      "x86",
+      "arm"
+    ],
     "version": "2.0.6",
     "desc": "VNT2虚拟局域网组网工具（基于开源项目vnt-cluster/vnt），提供Web管理界面，支持异地设备组建虚拟局域网。安装后通过桌面图标打开管理页面，首次登录需输入访问令牌（见共享目录VNT2/config/Web访问令牌.txt)。应用以root运行用于创建虚拟网卡。",
     "labels": "工具,组网,效率",
@@ -32,6 +35,9 @@
     "arch_diff": {
       "x86": {
         "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNT2/VNT2_2.0.7_x86.fpk"
+      },
+      "arm": {
+        "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNT2/VNT2_2.0.7_arm.fpk"
       }
     }
   },
