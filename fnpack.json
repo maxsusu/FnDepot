@@ -13,8 +13,7 @@
     "size": "4.89",
     "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.0202609031900_x86.fpk",
     "changelog": "- 更新至 v0.23.0，修复广告拦截静默失效；加固递归解析抵御 DNS 缓存投毒；修复 EDNS/DNSSEC 行为；新增 CLI 命令与仪表盘国际化"
-  }
-}
+  },
   "VNT2": {
     "display_name": "VNT2",
     "platform": [
@@ -57,4 +56,3 @@
     "changelog": "更新至 2.0.3版本，1、支持限定客户端id的连接 2、支持服务端修改IP"
   }
 }
-
