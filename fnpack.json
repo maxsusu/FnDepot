@@ -42,10 +42,10 @@
     "changelog": "升级到2.0.6版，1、支持使用域名直连节点 2、修复服务端域名多解析时只用第一个连接的问题",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNT2/VNT2_2.0.7_x86.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.7_x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNT2/VNT2_2.0.7_arm.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.7_arm64.fpk"
       }
     }
   },
@@ -61,7 +61,7 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "2.81",
-    "download_url": "https://github.com/maxsusu/FnDepot/blob/main/VNTS2/VNTS2_2.0.4_x86.fpk",
+    "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.4_X86.fpk",
     "changelog": "更新至 2.0.3版本，1、支持限定客户端id的连接 2、支持服务端修改IP"
   }
 }
