@@ -1,7 +1,10 @@
 {
   "numa": {
     "display_name": "numa",
-    "platform": "x86",
+    "platform": [
+      "x86",
+      "arm"
+    ],
     "version": "0.23.0",
     "desc": "Numa 是 Rust 编写的跨平台便携式本地 DNS 解析工具，以单二进制文件形式运行，无需树莓派、云服务或注册账号，兼顾网络隐私防护、广告拦截与开发者本地调试需求，数据全程本地留存。讨论 Q 群：767315692，官方链接：https://numa.rs/",
     "labels": "工具,DNS服务器,DNS",
@@ -11,8 +14,15 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "4.89",
-    "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa-v0.23.0202609031900_x86.fpk",
     "changelog": "- 更新至 v0.23.0，修复广告拦截静默失效；加固递归解析抵御 DNS 缓存投毒；修复 EDNS/DNSSEC 行为；新增 CLI 命令与仪表盘国际化"
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa_0.23.020260906_x86.fpk"
+      },
+      "arm": {
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa_v0.23.0/numa_0.23.020260906_arm64.fpk"
+      }
+    }
   },
   "VNT2": {
     "display_name": "VNT2",
@@ -29,7 +39,6 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "6.4",
-    "download_url": "",
     "changelog": "升级到2.0.6版，1、支持使用域名直连节点 2、修复服务端域名多解析时只用第一个连接的问题",
     "arch_diff": {
       "x86": {
