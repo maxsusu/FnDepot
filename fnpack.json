@@ -30,7 +30,7 @@
       "x86",
       "arm"
     ],
-    "version": "2.0.6",
+    "version": "2.0.7",
     "desc": "VNT2虚拟局域网组网工具（基于开源项目vnt-cluster/vnt），提供Web管理界面，支持异地设备组建虚拟局域网。安装后通过桌面图标打开管理页面，首次登录需输入访问令牌（见共享目录VNT2/config/Web访问令牌.txt)。应用以root运行用于创建虚拟网卡。",
     "labels": "工具,组网,效率",
     "distributor": "老A",
@@ -39,7 +39,7 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "6.4",
-    "changelog": "升级到2.0.6版，1、支持使用域名直连节点 2、修复服务端域名多解析时只用第一个连接的问题",
+    "changelog": "升级到2.0.7版",
     "arch_diff": {
       "x86": {
         "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.7_x86.fpk"
@@ -52,7 +52,7 @@
   "VNTS2": {
     "display_name": "VNTS2",
     "platform": "x86",
-    "version": "2.0.3",
+    "version": "2.0.5",
     "desc": "VNTS2虚拟网络服务器（VNT组网服务端）管理应用。安装后在共享目录VNTS2中运行vnts2并生成config.toml等配置文件，内置配置编辑器，保存后自动重启服务，支持运行状态监控与日志查看。",
     "labels": "工具,组网,效率",
     "distributor": "老A",
@@ -62,6 +62,6 @@
     "install_type": "存储空间",
     "size": "2.81",
     "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.5_x86.fpk",
-    "changelog": "更新至 2.0.3版本，1、支持限定客户端id的连接 2、支持服务端修改IP"
+    "changelog": "更新至 2.0.5版本"
   }
 }
