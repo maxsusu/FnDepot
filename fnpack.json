@@ -67,10 +67,11 @@
     "changelog": "升级到2.0.6版",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.6_x86.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.6_x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.6_arm64.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.6_arm64.fpk"
       }
     }
-  },
+  }
+}
