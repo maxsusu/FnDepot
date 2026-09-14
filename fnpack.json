@@ -30,7 +30,7 @@
       "x86",
       "arm"
     ],
-    "version": "2.0.7",
+    "version": "2.0.9",
     "desc": "VNT2虚拟局域网组网工具（基于开源项目vnt-cluster/vnt），提供Web管理界面，支持异地设备组建虚拟局域网。安装后通过桌面图标打开管理页面，首次登录需输入访问令牌（见共享目录VNT2/config/Web访问令牌.txt)。应用以root运行用于创建虚拟网卡。",
     "labels": "工具,组网,效率",
     "distributor": "老A",
@@ -39,29 +39,38 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "6.4",
-    "changelog": "升级到2.0.7版",
+    "changelog": "升级到2.0.9版",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.7_x86.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.7_arm64.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_arm64.fpk"
       }
     }
   },
   "VNTS2": {
     "display_name": "VNTS2",
-    "platform": "x86",
-    "version": "2.0.5",
+    "platform": [
+      "x86",
+      "arm"
+    ],
+    "version": "2.0.6",
     "desc": "VNTS2虚拟网络服务器（VNT组网服务端）管理应用。安装后在共享目录VNTS2中运行vnts2并生成config.toml等配置文件，内置配置编辑器，保存后自动重启服务，支持运行状态监控与日志查看。",
     "labels": "工具,组网,效率",
     "distributor": "老A",
     "distributor_url": "https://github.com/maxsusu/FnDepot/tree/main/numa",
-    "bug_report_url": "https://github.com/vnt-dev/vnts/issues",
+    "bug_report_url": "https://github.com/vnt-dev/vnt/issues",
     "isdocker": "false",
     "install_type": "存储空间",
-    "size": "2.81",
-    "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.5_x86.fpk",
-    "changelog": "更新至 2.0.5版本"
-  }
-}
+    "size": "6.4",
+    "changelog": "升级到2.0.6版",
+    "arch_diff": {
+      "x86": {
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.6_x86.fpk"
+      },
+      "arm": {
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.6_arm64.fpk"
+      }
+    }
+  },
