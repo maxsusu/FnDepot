@@ -38,7 +38,7 @@
     "bug_report_url": "https://github.com/vnt-dev/vnt/issues",
     "isdocker": "false",
     "install_type": "存储空间",
-    "size": "6.4",
+    "size": "7.6",
     "changelog": "升级到2.0.9版",
     "arch_diff": {
       "x86": {
@@ -63,7 +63,7 @@
     "bug_report_url": "https://github.com/vnt-dev/vnt/issues",
     "isdocker": "false",
     "install_type": "存储空间",
-    "size": "6.4",
+    "size": "3.4",
     "changelog": "升级到2.0.6版",
     "arch_diff": {
       "x86": {
