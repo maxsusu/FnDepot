@@ -30,7 +30,7 @@
       "x86",
       "arm"
     ],
-    "version": "2.0.9",
+    "version": "2.0.10",
     "desc": "VNT2虚拟局域网组网工具（基于开源项目vnt-cluster/vnt），提供Web管理界面，支持异地设备组建虚拟局域网。安装后通过桌面图标打开管理页面，首次登录需输入访问令牌（见共享目录VNT2/config/Web访问令牌.txt)。应用以root运行用于创建虚拟网卡。",
     "labels": "工具,组网,效率",
     "distributor": "老A",
@@ -39,13 +39,13 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "7.6",
-    "changelog": "升级到2.0.9版",
+    "changelog": "升级到2.0.10版",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_x86.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.10_x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_arm64.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.10_arm64.fpk"
       }
     }
   },
@@ -55,7 +55,7 @@
       "x86",
       "arm"
     ],
-    "version": "2.0.6",
+    "version": "2.0.7",
     "desc": "VNTS2虚拟网络服务器（VNT组网服务端）管理应用。安装后在共享目录VNTS2中运行vnts2并生成config.toml等配置文件，内置配置编辑器，保存后自动重启服务，支持运行状态监控与日志查看。",
     "labels": "工具,组网,效率",
     "distributor": "老A",
@@ -64,13 +64,13 @@
     "isdocker": "false",
     "install_type": "存储空间",
     "size": "3.4",
-    "changelog": "升级到2.0.6版",
+    "changelog": "升级到2.0.7版",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.6_x86.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.7_x86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.6_arm64.fpk"
+        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.7_arm64.fpk"
       }
     }
   }
