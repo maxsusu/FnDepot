@@ -91,9 +91,10 @@
       "run_as": "package",
       "install_type": "",
       "is_docker": false,
+      "service_port": "19099",
       "releases": {
         "2.0.9": {
-          "changelog": "升级到2.0.10版",
+          "changelog": "升级到2.0.9版",
           "packages": {
             "x86": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_x86.fpk",
@@ -122,8 +123,7 @@
             }
           }
         }
-      },
-      "service_port": "19099"
+      }
     },
     "VNT2S": {
       "display_name": "VNT2S服务端",
@@ -151,6 +151,7 @@
       "run_as": "package",
       "install_type": "",
       "is_docker": false,
+      "service_port": "29871",
       "releases": {
         "2.0.6": {
           "changelog": "升级到2.0.6版",
@@ -182,8 +183,7 @@
             }
           }
         }
-      },
-      "service_port": "29871"
+      }
     }
   }
 }
