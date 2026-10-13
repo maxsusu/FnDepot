@@ -1,0 +1,189 @@
+{
+  "schema_version": "2",
+  "source_info": {
+    "name": "shuangji66的应用源",
+    "author": "shuangji66",
+    "homepage": "https://github.com/shuangji66/FnDepot",
+    "description": "专注于原生 fpk 的打包，支持 x86、arm 双版本。"
+  },
+  "apps": {
+    "numa": {
+      "display_name": "numa dns",
+      "desc": "Numa 是 Rust 编写的跨平台便携式本地 DNS 解析工具，以单二进制文件形式运行，无需树莓派、云服务或注册账号，兼顾网络隐私防护、广告拦截与开发者本地调试需求，数据全程本地留存。讨论 Q 群：767315692，官方链接：https://numa.rs/",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "numa/ICON.PNG",
+      "preview_urls": [
+        "numa/Preview/01.png"
+      ],
+      "readme_url": "numa/README.md",
+      "bug_report_url": "https://github.com/maxsusu/FnDepot/issues",
+      "maintainer": "razvandimescu",
+      "maintainer_url": "https://numa.rs/",
+      "distributor": "老A",
+      "distributor_url": "https://github.com/maxsusu/FnDepot/tree/main/numa",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "service_port": "5380",
+      "releases": {
+        "0.24.1202610081940": {
+          "updated_at": "2026-10-08T19:40:25Z",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610081940_x86.fpk",
+              "sha256": "5b63a7f8eda01c01ce4894522897be9f639a32aed5ca21db9a5f06210a911548",
+              "size": 5371203
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610081940_arm64.fpk",
+              "sha256": "cb4a795394bbdbb25edc1833ae3aa08adb28e380461f43b2042d7f7e5171a796",
+              "size": 5131223
+            }
+          }
+        },
+        "0.24.1202610122310": {
+          "changelog": "更新上游版本",
+          "updated_at": "2026-10-01T12:40:01Z",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_x86.fpk",
+              "sha256": "7a060fbd93bfa138fb5f7351e362226e50a33ca5eed60daf1a42882277405116",
+              "size": 5372272
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_arm64.fpk",
+              "sha256": "218f577a7aad081106256648ba3c9a3bcdf2af0968b6e54227fde5af0c4868cf",
+              "size": 5132258
+            }
+          }
+        }
+      }
+    },
+    "VNT2": {
+      "display_name": "VNT2客户端",
+      "desc": "VNT2虚拟局域网组网工具（基于开源项目vnt-cluster/vnt），提供Web管理界面，支持异地设备组建虚拟局域网。安装后通过桌面图标打开管理页面，首次登录需输入访问令牌（见共享目录VNT2/config/Web访问令牌.txt)。应用以root运行用于创建虚拟网卡。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "VNT2/ICON.PNG",
+      "preview_urls": [
+        "VNT2/Preview/1.png",
+        "VNT2/Preview/2.png",
+        "VNT2/Preview/3.png",
+        "VNT2/Preview/4.png"
+      ],
+      "readme_url": "VNT2/README.md",
+      "bug_report_url": "https://github.com/vnt-dev/vnt/issues",
+      "maintainer": "vnt-dev",
+      "maintainer_url": "https://github.com/vnt-dev/vnt",
+      "distributor": "老A",
+      "distributor_url": "https://github.com/maxsusu/FnDepot",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "2.0.9": {
+          "changelog": "升级到2.0.10版",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_x86.fpk",
+              "sha256": "be6c95416367e858c997b686355fffa177169058e1c492edc4769ded3ee8afc2",
+              "size": 7948505
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_arm64.fpk",
+              "sha256": "28e234540c1d436395e57856e7a9162f517d32bc7a5c9bdcf7854d7a9726dfa8",
+              "size": 7814484
+            }
+          }
+        },
+        "2.0.10": {
+          "changelog": "升级到2.0.10版",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.10_x86.fpk",
+              "sha256": "fa67563437f7dfcd24d102c0e2459d5cec76c574ed06fd79722e25bf40fef4f7",
+              "size": 3297737
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.10_arm64.fpk",
+              "sha256": "329b43d12bc0c346301b1998a3a58022f81805607a21b29c6bd52c8c39242dc9",
+              "size": 2988048
+            }
+          }
+        }
+      },
+      "service_port": "19099"
+    },
+    "VNT2S": {
+      "display_name": "VNT2S服务端",
+      "desc": "VNTS2虚拟网络服务器（VNT组网服务端）管理应用。安装后在共享目录VNTS2中运行vnts2并生成config.toml等配置文件，内置配置编辑器，保存后自动重启服务，支持运行状态监控与日志查看。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "VNT2S/ICON.PNG",
+      "preview_urls": [
+        "VNT2S/Preview/1.png",
+        "VNT2S/Preview/2.png",
+        "VNT2S/Preview/3.png",
+        "VNT2S/Preview/4.png"
+      ],
+      "readme_url": "VNT2/README.md",
+      "bug_report_url": "https://github.com/vnt-dev/vnt/issues",
+      "maintainer": "vnt-dev",
+      "maintainer_url": "https://github.com/vnt-dev/vnt",
+      "distributor": "老A",
+      "distributor_url": "https://github.com/maxsusu/FnDepot",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "2.0.6": {
+          "changelog": "升级到2.0.6版",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.6_x86.fpk",
+              "sha256": "aab1c36866cdcdbd629c80b491340404b6a353753be1e5fa3305ed55b6c49e4a",
+              "size": 3297737
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.6_arm64.fpk",
+              "sha256": "640d2fdf71ff262539e7e84aa4aaad5e4afe68c4477685402724a2f68c0a6bba",
+              "size": 2988048
+            }
+          }
+        },
+        "2.0.7": {
+          "changelog": "升级到2.0.7版",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.7_x86.fpk",
+              "sha256": "63ca03b2482e9c887b4e550ac0a41a2556346323d77169562d01e84587e6e1be",
+              "size": 3729935
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.7_arm64.fpk",
+              "sha256": "884cf89fd16cb7bacb113998b6f799edd0e60cae4720f24bf2f8905650035eea",
+              "size": 7814484
+            }
+          }
+        }
+      },
+      "service_port": "29871"
+    }
+  }
+}
