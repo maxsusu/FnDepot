@@ -1,29 +1,69 @@
 {
-  "numa": {
-    "display_name": "numa",
-    "platform": [
-      "x86",
-      "arm"
-    ],
-    "version": "0.24.1202610122310",
-    "desc": "Numa 是 Rust 编写的跨平台便携式本地 DNS 解析工具，以单二进制文件形式运行，无需树莓派、云服务或注册账号，兼顾网络隐私防护、广告拦截与开发者本地调试需求，数据全程本地留存。讨论 Q 群：767315692，官方链接：https://numa.rs/",
-    "labels": "工具,DNS服务器,DNS",
-    "distributor": "老 A",
-    "distributor_url": "https://github.com/maxsusu/FnDepot/tree/main/numa",
-    "bug_report_url": "https://github.com/maxsusu/FnDepot/issues",
-    "isdocker": "false",
-    "install_type": "存储空间",
-    "size": "4.89",
-    "changelog": "- 更新至 v0.24.1,适配 numa v0.24.1 仪表盘登录认证（Basic Auth）：内网与 FN Connect 统一经本机反向代理打开仪表盘，干净地址、免输令牌、秒开",
-    "arch_diff": {
-      "x86": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_x86.fpk"
-      },
-      "arm": {
-        "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_arm64.fpk"
+"numa": {
+  "display_name": "numa dns",
+  "desc": "Numa 是 Rust 编写的跨平台便携式本地 DNS 解析工具，以单二进制文件形式运行，无需树莓派、云服务或注册账号，兼顾网络隐私防护、广告拦截与开发者本地调试需求，数据全程本地留存。讨论 Q 群：767315692，官方链接：https://numa.rs/",
+  "platform": [
+    "x86",
+    "arm"
+  ],
+  "categories": [
+    "系统工具",
+    "编程开发",
+    "AI赋能",
+    "生活服务",
+    "智能智控",
+    "教育学习"
+  ],
+  "icon_url": "numa/ICON.PNG",
+  "preview_urls": [
+    "numa/Preview/01.png"
+  ],
+  "readme_url": "numa/README.md",
+  "bug_report_url": "https://github.com/maxsusu/FnDepot/issues",
+  "maintainer": "老A",
+  "maintainer_url": "https://github.com/maxsusu/FnDepot/tree/main/numa",
+  "distributor": "老A",
+  "distributor_url": "https://github.com/maxsusu/FnDepot",
+  "run_as": "package",
+  "install_type": "",
+  "is_docker": false,
+  "service_port": "5380",
+  "version": "0.24.1202610122310",
+  "releases": {
+    "0.24.1202610122310": {
+      "changelog": "更新上游版本",
+      "updated_at": "2026-10-12T23:10:28Z",
+      "packages": {
+        "x86": {
+          "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_x86.fpk",
+          "sha256": "",
+          "size": "4.89"
+        },
+        "arm": {
+          "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_arm64.fpk",
+          "sha256": "",
+          "size": "4.89"
+        }
+      }
+    },
+    "0.24.1202610081940": {
+      "changelog": "更新上游版本",
+      "updated_at": "2026-10-08T19:40:30Z",
+      "packages": {
+        "x86": {
+          "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610081940_x86.fpk",
+          "sha256": "",
+          "size": "4.89"
+        },
+        "arm": {
+          "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610081940_arm64.fpk",
+          "sha256": "",
+          "size": "4.89"
+        }
       }
     }
-  },
+  }
+}
   "VNT2": {
     "display_name": "VNT2",
     "platform": [
