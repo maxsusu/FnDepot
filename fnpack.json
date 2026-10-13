@@ -15,6 +15,7 @@
     "install_type": "存储空间",
     "size": "4.89",
     "changelog": "- 更新至 v0.24.1,适配 numa v0.24.1 仪表盘登录认证（Basic Auth）：内网与 FN Connect 统一经本机反向代理打开仪表盘，干净地址、免输令牌、秒开",
+    "service_port": "5380",
     "arch_diff": {
       "x86": {
         "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_x86.fpk"
