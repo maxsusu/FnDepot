@@ -19,7 +19,9 @@
       ],
       "icon_url": "numa/ICON.PNG",
       "preview_urls": [
-        "numa/Preview/01.png"
+        "numa/Preview/01.png",
+        "numa/Preview/02.png",
+        "numa/Preview/3.png"
       ],
       "readme_url": "numa/README.md",
       "bug_report_url": "https://github.com/maxsusu/FnDepot/issues",
@@ -33,33 +35,38 @@
       "service_port": "5380",
       "releases": {
         "0.24.1202610081940": {
-          "updated_at": "2026-10-08T19:40:25Z",
+          "changelog": "新增适配 numa v0.24.1 仪表盘登录认证（Basic Auth）：内网与 FN Connect 统一经本机反向代理打开仪表盘，干净地址、免输令牌、秒开",
+          "updated_at": "2026-10-08T19:40:38Z",
           "packages": {
             "x86": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610081940_x86.fpk",
               "sha256": "5b63a7f8eda01c01ce4894522897be9f639a32aed5ca21db9a5f06210a911548",
-              "size": 5371203
+              "size": 5371203,
+              "updated_at": "2026-10-08T19:40:37Z"
             },
             "arm": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610081940_arm64.fpk",
               "sha256": "cb4a795394bbdbb25edc1833ae3aa08adb28e380461f43b2042d7f7e5171a796",
-              "size": 5131223
+              "size": 5131223,
+              "updated_at": "2026-10-08T19:40:38Z"
             }
           }
         },
         "0.24.1202610122310": {
-          "changelog": "更新上游版本",
-          "updated_at": "2026-10-01T12:40:01Z",
+          "changelog": "新增适配 numa v0.24.1 仪表盘登录认证（Basic Auth）：内网与 FN Connect 统一经本机反向代理打开仪表盘，干净地址、免输令牌、秒开。",
+          "updated_at": "2026-10-12T20:46:27Z",
           "packages": {
             "x86": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_x86.fpk",
               "sha256": "7a060fbd93bfa138fb5f7351e362226e50a33ca5eed60daf1a42882277405116",
-              "size": 5372272
+              "size": 5372272,
+              "updated_at": "2026-10-12T20:46:27Z"
             },
             "arm": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.24.1202610122310_arm64.fpk",
               "sha256": "218f577a7aad081106256648ba3c9a3bcdf2af0968b6e54227fde5af0c4868cf",
-              "size": 5132258
+              "size": 5132258,
+              "updated_at": "2026-10-12T20:46:27Z"
             }
           }
         }
@@ -95,31 +102,37 @@
       "releases": {
         "2.0.9": {
           "changelog": "升级到2.0.9版",
+          "updated_at": "2026-10-13T18:49:15Z",
           "packages": {
             "x86": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_x86.fpk",
               "sha256": "be6c95416367e858c997b686355fffa177169058e1c492edc4769ded3ee8afc2",
-              "size": 7948505
+              "size": 7948505,
+              "updated_at": "2026-10-13T18:49:44Z"
             },
             "arm": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.9_arm64.fpk",
               "sha256": "28e234540c1d436395e57856e7a9162f517d32bc7a5c9bdcf7854d7a9726dfa8",
-              "size": 7814484
+              "size": 7814484,
+              "updated_at": "2026-10-13T18:49:15Z"
             }
           }
         },
         "2.0.10": {
           "changelog": "升级到2.0.10版",
+          "updated_at": "2026-10-01T23:02:25Z",
           "packages": {
             "x86": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.10_x86.fpk",
               "sha256": "fa67563437f7dfcd24d102c0e2459d5cec76c574ed06fd79722e25bf40fef4f7",
-              "size": 3297737
+              "size": 8329264,
+              "updated_at": "2026-10-01T23:02:24Z"
             },
             "arm": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.10_arm64.fpk",
               "sha256": "329b43d12bc0c346301b1998a3a58022f81805607a21b29c6bd52c8c39242dc9",
-              "size": 2988048
+              "size": 8185937,
+              "updated_at": "2026-10-01T23:02:25Z"
             }
           }
         }
@@ -159,27 +172,30 @@
             "x86": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.6_x86.fpk",
               "sha256": "aab1c36866cdcdbd629c80b491340404b6a353753be1e5fa3305ed55b6c49e4a",
-              "size": 3297737
+              "size": 3587704
             },
             "arm": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.6_arm64.fpk",
               "sha256": "640d2fdf71ff262539e7e84aa4aaad5e4afe68c4477685402724a2f68c0a6bba",
-              "size": 2988048
+              "size": 3460610
             }
           }
         },
         "2.0.7": {
           "changelog": "升级到2.0.7版",
+          "updated_at": "2026-10-08T21:08:49Z",
           "packages": {
             "x86": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.7_x86.fpk",
               "sha256": "63ca03b2482e9c887b4e550ac0a41a2556346323d77169562d01e84587e6e1be",
-              "size": 3729935
+              "size": 3729935,
+              "updated_at": "2026-10-08T21:08:48Z"
             },
             "arm": {
               "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.7_arm64.fpk",
-              "sha256": "884cf89fd16cb7bacb113998b6f799edd0e60cae4720f24bf2f8905650035eea",
-              "size": 7814484
+              "sha256": "c309b1759142053a236b6d0a1c40af9a182d1bd485ad8466b1c3c4a71e751d2e",
+              "size": 3596758,
+              "updated_at": "2026-10-08T21:08:49Z"
             }
           }
         }
