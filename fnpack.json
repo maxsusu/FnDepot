@@ -135,6 +135,24 @@
               "updated_at": "2026-10-01T23:02:25Z"
             }
           }
+        },
+        "2.0.11": {
+          "changelog": "修复设置重复路由直接退出的问题\n兼容旧linux版本不支持端口复用的问题\n增加错误提示输出",
+          "updated_at": "2026-10-20T10:36:51Z",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.11_x86.fpk",
+              "sha256": "65a7d889fad9e6bdd3b5c4b94f6a534d1dd1deeb391be42b15f0d0f6e2eb4a57",
+              "size": 8339566,
+              "updated_at": "2026-10-20T10:36:50Z"
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNT2_2.0.11_arm64.fpk",
+              "sha256": "19ad6ac349eb0930cd665d5cd228acc77b2005a22de419d97b7d55e44d722daf",
+              "size": 8233019,
+              "updated_at": "2026-10-20T10:36:51Z"
+            }
+          }
         }
       }
     },
@@ -196,6 +214,24 @@
               "sha256": "c309b1759142053a236b6d0a1c40af9a182d1bd485ad8466b1c3c4a71e751d2e",
               "size": 3596758,
               "updated_at": "2026-10-08T21:08:49Z"
+            }
+          }
+        },
+        "2.0.8": {
+          "changelog": "升级到2.0.8版",
+          "updated_at": "2026-10-20T10:10:25Z",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.8_x86.fpk",
+              "sha256": "8a5469e7663c5b724adcb5d76754d6e3b678016bf9aca8a00da4a9fef2cd708e",
+              "size": 3720328,
+              "updated_at": "2026-10-20T10:10:24Z"
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/VNT2%26VNTS2/VNTS2_2.0.8_arm64.fpk",
+              "sha256": "4d9a586ee80bfa2408705b6d866bce137aceb2baea4c0847ca55ee1f5d6c4b36",
+              "size": 3594617,
+              "updated_at": "2026-10-20T10:10:25Z"
             }
           }
         }
