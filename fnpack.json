@@ -69,6 +69,24 @@
               "updated_at": "2026-10-12T20:46:27Z"
             }
           }
+        },
+        "0.25.0202611041120": {
+          "changelog": "新增适配 numa v0.25.0\n本次更新确保在 Quad9 于 11 月 24 日停止法国地区服务后，法国用户仍可正常使用 Numa 完成域名解析。版本新增了 `-c/--config` 配置参数、支持在白名单中使用列表 URL，并为「以真实域名作为代理顶级域（TLD）」的场景新增了 `authoritative = false` 选项。同时强化了递归解析模式与 Windows 服务的稳定性，合并了三项 RustSec 安全漏洞修复。",
+          "updated_at": "2026-11-04T11:29:46Z",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.25.0202611041120_x86.fpk",
+              "sha256": "2f3822789eadb8679182817b77c27ac7b1eaacc97ea2e25bc3ea061efe5c0f80",
+              "size": 5578204,
+              "updated_at": "2026-11-04T11:29:44Z"
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.25.0202611041120_arm64.fpk",
+              "sha256": "5645707f80844025acbcbd701ad64f25501d67bbe7dfa5a09e7bcf37d3dd53c7",
+              "size": 5323109,
+              "updated_at": "2026-11-04T11:29:46Z"
+            }
+          }
         }
       }
     },
