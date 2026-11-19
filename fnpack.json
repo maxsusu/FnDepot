@@ -87,6 +87,24 @@
               "updated_at": "2026-11-04T11:29:46Z"
             }
           }
+        },
+        "0.25.2202611191430": {
+          "changelog": "v0.25.2（最新版）\n本次发布修复了 0.25.1 版本的 x86_64 Linux 二进制文件——该版本在不支持 AVX2 的 CPU 上会因“非法指令”而崩溃。转发模式也不再等待缓慢的上游服务器，而是优先采用最先返回应答的主上游；黑名单改为通过已配置的上游获取；仪表盘会显示每个上游的应答情况和中位耗时。",
+          "updated_at": "2026-11-19T14:33:46Z",
+          "packages": {
+            "x86": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.25.2202611191430_x86.fpk",
+              "sha256": "5fe56cc52c165c59a5d8a87a17badc8e58463bb6eb5726e3f9f6ff05cb1479f6",
+              "size": 5647829,
+              "updated_at": "2026-11-19T14:33:45Z"
+            },
+            "arm": {
+              "download_url": "https://github.com/maxsusu/FnDepot/releases/download/numa/numa_0.25.2202611191430_arm64.fpk",
+              "sha256": "fde34f657907cb21a5a5b42a44038491c13070ef47b420c15864a7f8317b4b5b",
+              "size": 5393032,
+              "updated_at": "2026-11-19T14:33:46Z"
+            }
+          }
         }
       }
     },
